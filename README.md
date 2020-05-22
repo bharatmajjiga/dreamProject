@@ -1,10 +1,10 @@
 # DreamProject
 This project is small social media kind of application, with functionality such as 
-user login  
-logged in user able to view his albums
-the photos inside each albums
-and also the posts posted by the user
-and the todo list if the user has created any
+user login,  
+logged in user able to view his albums,
+the photos inside each albums,
+and also the posts posted by the user,
+and the todo list if the user has created any.
 
 The main theme of starting this project is to learn angular framaework 
 
