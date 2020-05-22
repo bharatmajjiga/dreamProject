@@ -1,0 +1,17 @@
+<div class="contianer">
+<label for="title">Enter post title</label>
+<input (keyup.enter)="createPost(title)" #title type="text" class="form-control" placeholder="press enter to post">
+<div class="jumbotron jumbotron-fluid" *ngFor="let post of posts">
+  <div class="container">
+    <button (click)="updatePost(post)">Update</button>
+    <button (click)="deletePost(post)">Delete</button>
+    <h1 class="display-4">{{post.title}}</h1>
+    <p class="lead">{{post.body}}</p>
+    <h4>Comments</h4>
+    <p *ngFor="let comment of comments">
+      <span class="text-capitalize font-weight-bold">{{comment.name}} - </span>
+      <span class="text-monospace">{{comment.body}}</span>
+    </p>
+  </div>
+</div>
+</div>
