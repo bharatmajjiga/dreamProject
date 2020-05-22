@@ -6,6 +6,8 @@ the photos inside each albums,
 and also the posts posted by the user,
 and the todo list if the user has created any.
 
+## The back end service/api's required for this front end application are used from online fake rest api https://jsonplaceholder.typicode.com/
+
 The main theme of starting this project is to learn angular framaework 
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 7.0.5.
